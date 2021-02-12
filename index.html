@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <script src="./script.js" type=""></script>
+    <title>Document</title>
+    <link rel="stylesheet" href="./style.css">
+</head>
+
+<body>
+    <canvas id="_canvas"></canvas>
+    <input type="text" name="" id="in">
+
+    <script>
+        const gauge = new Gauge(document.getElementById("_canvas"), 400);
+        const input = document.getElementById("in");
+        input.addEventListener("change", (e) => {
+            gauge.update(input.value, input.value)
+        });
+    </script>
+</body>
+
+</html>

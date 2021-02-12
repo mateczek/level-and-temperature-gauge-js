@@ -1,0 +1,9 @@
+body {
+    height: 100vh;
+    background-color: #1e1e1e;
+    font-family: 'Nixie One', cursive;
+}
+
+canvas {
+    border: 3px solid black;
+}
